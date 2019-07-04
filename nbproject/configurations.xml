@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>convert.h</itemPath>
+      <itemPath>energy.h</itemPath>
+      <itemPath>random.h</itemPath>
+      <itemPath>rnafold.h</itemPath>
+      <itemPath>rnavar.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>delta_hd.cpp</itemPath>
+      <itemPath>deltag_he.cpp</itemPath>
+      <itemPath>deltag_hi.cpp</itemPath>
+      <itemPath>deltag_hm.cpp</itemPath>
+      <itemPath>deltag_hr.cpp</itemPath>
+      <itemPath>ebulge.cpp</itemPath>
+      <itemPath>edangle.cpp</itemPath>
+      <itemPath>ehair.cpp</itemPath>
+      <itemPath>eloop.cpp</itemPath>
+      <itemPath>estack.cpp</itemPath>
+      <itemPath>estruc.cpp</itemPath>
+      <itemPath>tdangle3.cpp</itemPath>
+      <itemPath>tint11.cpp</itemPath>
+      <itemPath>tint12.cpp</itemPath>
+      <itemPath>tint22.cpp</itemPath>
+      <itemPath>tloop.cpp</itemPath>
+      <itemPath>tstack.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>helx_reac.cpp</itemPath>
+      <itemPath>kfold.cpp</itemPath>
+      <itemPath>loop_fire.cpp</itemPath>
+      <itemPath>loop_init.cpp</itemPath>
+      <itemPath>loop_reac.cpp</itemPath>
+      <itemPath>loop_resum.cpp</itemPath>
+      <itemPath>random.cpp</itemPath>
+      <itemPath>readdata.cpp</itemPath>
+      <itemPath>setupnuc.cpp</itemPath>
+      <itemPath>ssareaction.cpp</itemPath>
+      <itemPath>tdangle5.cpp</itemPath>
+      <itemPath>tstackh.cpp</itemPath>
+      <itemPath>tstacki.cpp</itemPath>
+      <itemPath>v2ct.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+      </compileType>
+      <item path="convert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="delta_hd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="deltag_he.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="deltag_hi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="deltag_hm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="deltag_hr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ebulge.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="edangle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ehair.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="eloop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="energy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="estack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="estruc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="helx_reac.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kfold.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="loop_fire.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="loop_init.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="loop_reac.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="loop_resum.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="random.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="random.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="readdata.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rnafold.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rnavar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="setupnuc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ssareaction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tdangle3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tdangle5.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tint11.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tint12.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tint22.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tloop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tstack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tstackh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tstacki.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="v2ct.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="convert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="delta_hd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="deltag_he.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="deltag_hi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="deltag_hm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="deltag_hr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ebulge.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="edangle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ehair.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="eloop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="energy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="estack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="estruc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="helx_reac.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kfold.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="loop_fire.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="loop_init.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="loop_reac.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="loop_resum.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="random.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="random.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="readdata.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rnafold.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rnavar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="setupnuc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ssareaction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tdangle3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tdangle5.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tint11.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tint12.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tint22.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tloop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tstack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tstackh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tstacki.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="v2ct.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
